@@ -1,0 +1,5 @@
+baseurl = "/"
+
+[params]
+  title = "Samfprogramming"
+  author = "Jakob Jul Elben"
