@@ -1,5 +1,14 @@
 baseurl = "/"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
-  title = "Samfprogramming"
+  title = "CPH codes"
   author = "Jakob Jul Elben"
+  
+[[menu.main]]
+  name = "Intro"
+  url = "/intro"
+  
+[[menu.main]]
+  name = "Hello"
+  url = "/hello"
