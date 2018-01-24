@@ -1044,13 +1044,10 @@ a{
 .w3-right{
     float:right!important
 }
-
-/*
  .w3-button:hover{
     color:#000!important;
     background-color:#ccc!important
 }
-*/
  .w3-transparent,.w3-hover-none:hover{
     background-color:transparent!important
 }
@@ -1345,27 +1342,4 @@ a{
 }
 .w3-border-pale-blue,.w3-hover-border-pale-blue:hover{
     border-color:#e7ffff!important
-}
-
-
-/* Jakob - 24/01/2018 */
-
-.bgimg {
-    background-image: url('https://images2.alphacoders.com/698/698137.jpg');
-    min-height: 100%;
-    background-position: center;
-    background-size: cover;
-    filter: blur(2px) grayscale(35%) brightness(50%);
-    transform: scale(1.1);
-}
-
-body, html {
-  height: 100%; 
-  overflow: hidden;
-  font-family: "Raleway", sans-serif;
-  color: white;
-}
-
-i.fa {
-  font-size:36px
 }
