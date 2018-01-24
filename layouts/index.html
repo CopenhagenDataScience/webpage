@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-<title> {{ .Site.Params.title }}</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
+{{ define "main" }}
 
 <div class="bgimg w3-display-container w3-animate-opacity w3-text-white"></div>
 <!-- Navbar (sit on top) -->
@@ -17,9 +7,10 @@
     <a href="#home" class="w3-bar-item w3-button">{{ .Site.Params.title }}</a>
     <!-- Right-sided navbar links. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
+      
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
-    <a href="{{ .URL }}" class="w3-bar-item w3-button">{{ .Name }}</a>
+    <a href="page/{{ .URL }}" class="w3-bar-item w3-button">{{ .Name }}</a>
     {{ end }}
       
     </div>
@@ -35,5 +26,4 @@
   </div>
 
 
-</body>
-</html>
+{{ end }}
