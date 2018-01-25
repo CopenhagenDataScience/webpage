@@ -1,14 +1,27 @@
-baseurl = "/"
+baseurl = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
   title = "CPH codes"
   author = "Jakob Jul Elben"
+  github = "https://github.com/orgs/samfprogramming/"
   
 [[menu.main]]
   name = "Intro"
-  url = "/intro"
+  url = "/page/intro"
+  weight = 10
   
 [[menu.main]]
-  name = "Hello"
-  url = "/hello"
+  name = "About"
+  url = "/page/about"
+  weight = 20
+  
+[[menu.main]]
+  name = "Contact"
+  url = "/page/about"
+  weight = 20
+  
+[[menu.main]]
+  name = "Blog"
+  url = "/page/about"
+  weight = 20

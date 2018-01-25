@@ -1,29 +1,15 @@
 {{ define "main" }}
 
-<div class="bgimg w3-display-container w3-animate-opacity w3-text-white"></div>
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar w3-transparent w3-padding" style="letter-spacing:4px;">
-    <a href="#home" class="w3-bar-item w3-button">{{ .Site.Params.title }}</a>
-    <!-- Right-sided navbar links. Hide them on small screens -->
-    <div class="w3-right w3-hide-small">
-      
-    {{ $currentPage := . }}
-    {{ range .Site.Menus.main }}
-    <a href="page/{{ .URL }}" class="w3-bar-item w3-button">{{ .Name }}</a>
-    {{ end }}
-      
-    </div>
-  </div>
-</div>
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white" style = "">
+  {{ partial "navbar.html" . }}
   <div class="w3-display-middle">
     <h1 class="w3-jumbo w3-animate-top"> {{ .Site.Params.title }}</h1>
     <hr class="w3-border-grey" style="margin:auto;width:40%">
     <p class="w3-large w3-center">Comming soon</p>
   </div>
   <div class="w3-display-bottomleft w3-padding-large">
-    Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+    Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a> and <a href="https://github.com/rstudio/blogdown" target="_blank">blogdown</a>
   </div>
-
+</div>
 
 {{ end }}
