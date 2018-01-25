@@ -1,4 +1,4 @@
-baseurl = "samfprogramming.netlify.com"
+baseurl = "https://samfprogramming.netlify.com"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
