@@ -1,16 +1,16 @@
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-transparent w3-padding" style="letter-spacing:4px;">
-    <a href="/" class="w3-bar-item w3-button">{{ .Site.Params.title }}</a>
+    <a href="/" class="w3-bar-item w3-button"> <h5>{{ .Site.Params.title }}</h5></a>
     <!-- Right-sided navbar links. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
       
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
-    <a href="{{ .URL }}" class="w3-bar-item w3-button">{{ .Name }}</a>
+    <a href="{{ .URL }}" class="w3-bar-item w3-button" style = "padding-top: 20px;">{{ .Name }}</a>
     {{ end }}
     
-    <a href="{{ .Site.Params.Github }}" class="w3-bar-item w3-button"><i class="fa fa-github"></i></a>
+    <a href="{{ .Site.Params.Github }}" class="w3-bar-item w3-button" style = "padding-top: 18px;"><i class="fa fa-github"></i></a>
       
     </div>
   </div>
