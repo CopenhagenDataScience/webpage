@@ -1,5 +1,5 @@
 ---
-type: "type"
+type: "intro"
 title: "contact"
 ---
 
