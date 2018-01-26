@@ -1,6 +1,6 @@
 ---
 type: "intro"
-title: "About samf programming"
+title: "about"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci nisl, accumsan eu nisl id, rhoncus tincidunt lorem. Vestibulum diam lacus, dignissim sit amet felis a, porta laoreet diam. Duis ullamcorper a magna consequat vehicula. Phasellus sagittis egestas purus, et dictum lorem laoreet quis. Mauris varius varius ex, hendrerit vestibulum sem ornare id. Curabitur non scelerisque nisl. Vestibulum purus ligula, accumsan non facilisis ac, aliquet vehicula ante. Nulla eget velit lobortis, eleifend mauris in, molestie mauris. Phasellus vitae efficitur sem. Proin quis semper quam. Nulla libero arcu, maximus sit amet venenatis nec, dictum a mauris. Integer euismod ac felis sit amet consectetur. Duis luctus, dui ac congue commodo, nisl mi tristique dui, id rutrum ipsum ipsum id diam.
