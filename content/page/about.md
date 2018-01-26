@@ -1,5 +1,5 @@
 ---
-type: "about"
+type: "intro"
 title: "About samf programming"
 ---
 
