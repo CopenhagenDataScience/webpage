@@ -1,4 +1,0 @@
----
-type: "projects"
-title: "projects"
----
