@@ -1,12 +1,13 @@
 .bgimg {
-    background-image: url('../images/code_macbook.jpg');
+    background: url('../images/code_macbook.jpg');
     min-height: 100%;
     background-position: center;
     background-size: cover;
 }
 
+
 .bgimg-intro {
-    background-image: url('../images/code_macbook.jpg');
+    background: url('../images/code_macbook.jpg');
     min-height: 100%;
     background-position: center;
     background-size: cover;
@@ -27,3 +28,72 @@ i.fa {
     color: white!important;
     background-color: transparent!important;
 }
+
+
+
+*
+{
+    box-sizing: border-box;
+}
+
+.post-flex{
+    display: flex;
+    padding: 10px;
+}
+
+.post-flex > a {
+  padding-right: 10px;
+}
+
+.post-flex > a div div {
+  color: red;
+  height: 193px;
+  width: 289px;
+  padding: 0px;
+}
+.post-flex > a div img {
+  height: 193px;
+  width: 289px;
+}
+
+.post-card-content-link {
+  padding: 0;
+}
+
+.post-card-header h2 {
+  margin:0;
+  border:0;
+  padding:0;
+}
+
+.post-card-content-inner {
+  height: 196px;
+  width: 100%;
+  overflow: hidden; 
+}
+
+.post-card-excerpt p {
+  text-overflow: ellipsis;
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+    }
+    16% {
+       opacity: 1;
+    }
+    84% {
+       opacity: 1;
+    }
+    100% {
+       opacity: 0;
+    }
+}
+
+.animateOnce {
+  -webkit-animation: fadeInOut 6s;
+   animation: fadeInOut 6s
+}
+
+

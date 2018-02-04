@@ -1,0 +1,21 @@
+---
+author: "Michael Henderson"
+date: 2014-09-28
+nomenu:
+  main:
+    parent: tutorials
+next: /tutorials/github-pages-blog
+prev: /tutorials/automated-deployments
+title: Using rmarkdown
+weight: 10
+image: img/welcome.jpg
+authorAvatar: hugo-logo.png
+slug: s
+---
+
+```{r}
+2+2
+```
+
+$$ 2+2 $$
+

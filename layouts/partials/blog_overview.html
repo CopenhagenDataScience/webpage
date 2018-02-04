@@ -1,0 +1,48 @@
+<div class="w3-container" id="about">
+  <div class="w3-container" style="width: 100%;  overflow-y: scroll;">
+  <div class="w3-content" style="max-width:900px;">
+
+    <div class ="flex w3-padding-64" style = "width: 100%; height: 750px;">
+      {{ range (where (where .Site.Pages.ByDate.Reverse ".Section" "=" "blog") ".Params.image" "!=" nil) }} 
+  {{if .Params.image}}
+  
+  <div class="post-card post"> 
+  <div class = "post-flex">
+    <a class="post-card-image-link" href="{{ .Permalink }}">
+      <div class="post-card-image" style="background-image: url({{.Params.image | absURL}})">
+        <img src = "{{.Params.image | absURL}}"></div>
+    </a>
+
+
+    <div class="post-card-content">
+      <div class="post-card-content-inner">
+
+      <a class="post-card-content-link" href="{{ .Permalink }}">
+        <header class="post-card-header">
+          
+          <h2 class="post-card-title">{{.Title}}</h2>
+        </header>
+                  <section class="post-card-excerpt">
+              {{ if .Description }} 
+                <p>{{ .Description | markdownify }}</p>
+              {{ end }}
+          </section>
+          </div>
+        </a>
+
+      </div>
+    </div>
+    {{else}}
+    <a class="post-card-image-link" href="{{ .Permalink }}">
+      <div class="post-card-image" style="background-image: url({{$.Site.BaseURL}}defimg/{{ index (seq 7 | shuffle) 0 }}.jpg)"></div>
+    </a>    
+    {{ end }}
+    {{ end }}
+    </div>
+    
+    
+    
+  
+  </div>
+</div>
+</div>

@@ -5,6 +5,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   title = "CPH codes"
   author = "Jakob Jul Elben"
   github = "https://github.com/orgs/samfprogramming/"
+  paginatePath = "blog"
   
 [[menu.main]]
   name = "Intro"

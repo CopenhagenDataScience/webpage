@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+<div class="bgimg-intro w3-display-container w3-text-white .animateOnce" style = "height:100%">
+  
+{{ partial "navbar.html" . }}
+<!-- About Container -->
+
+{{ if eq .Section "blog" }} 
+  {{ partial "blog_post.html" . }}
+{{else}}
+  {{ partial "blog_overview.html" . }}
+
+{{ end }}
+
+{{ partial "footer.html" . }}
+
+
+
+  
+{{ end }}
