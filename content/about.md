@@ -1,5 +1,5 @@
 ---
-type: "intro"
+type: "textsection"
 title: "about"
 ---
 
