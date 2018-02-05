@@ -3,6 +3,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
   title = "CPH codes"
+  subtitle = "CPH codes is a society that applies coding to address issues of the 22nd century"
   author = "Jakob Jul Elben"
   github = "https://github.com/orgs/samfprogramming/"
   paginatePath = "blog"
