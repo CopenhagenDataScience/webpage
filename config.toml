@@ -9,6 +9,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   highlightjsVersion = "9.11.0"
   highlightjsLang = ["r", "yaml"]
   highlightjsTheme = "dark"
+  MathJaxCDN = "//cdn.bootcss.com"
+  MathJaxVersion = "2.7.1"
   
 [[menu.main]]
   name = "Intro"
