@@ -6,6 +6,9 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   author = "Jakob Jul Elben"
   github = "https://github.com/orgs/samfprogramming/"
   paginatePath = "blog"
+  highlightjsVersion = "9.11.0"
+  highlightjsLang = ["r", "yaml"]
+  highlightjsTheme = "dark"
   
 [[menu.main]]
   name = "Intro"
@@ -21,4 +24,5 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   name = "Blog"
   url = "/blog"
   weight = 40
+  
   

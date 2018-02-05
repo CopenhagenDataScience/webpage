@@ -8,8 +8,14 @@
 <link rel="stylesheet" href="/css/main.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+
+{{ partial "head_highlightjs.html" . }}
+
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>-->
 </head>
 <body class="animateOnce" onload="document.body.classList.add('loaded')">
   {{ block "main" . }}{{ end }}
 </body >
+{{ partial "footer_highlightjs.html" . }}
 </html>
