@@ -7,6 +7,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   github = "https://github.com/orgs/samfprogramming/"
   paginatePath = "blog"
   highlightjsVersion = "9.11.0"
+  highlightjsCDN = "//cdn.bootcss.com"
   highlightjsLang = ["r", "yaml"]
   highlightjsTheme = "dark"
   MathJaxCDN = "//cdn.bootcss.com"
