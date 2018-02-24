@@ -133,3 +133,6 @@ a.post-card-content-link {
   text-decoration: none;
 }
 
+::-webkit-scrollbar {
+display: none;
+}
