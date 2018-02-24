@@ -3,7 +3,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
   title = "CPH codes"
-  subtitle = "CPH codes is a society that applies coding to address issues of the 22nd century"
+  subtitle = "CPH codes is a society that applies coding to address issues of the 21st century"
   author = "Jakob Jul Elben"
   github = "https://github.com/orgs/samfprogramming/"
   paginatePath = "blog"
@@ -13,11 +13,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   highlightjsTheme = "dark"
   MathJaxCDN = "//cdn.bootcss.com"
   MathJaxVersion = "2.7.1"
-  
-[[menu.main]]
-  name = "Intro"
-  url = "/intro"
-  weight = 10
+
   
 [[menu.main]]
   name = "About"
