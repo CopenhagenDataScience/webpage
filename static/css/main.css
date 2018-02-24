@@ -133,6 +133,19 @@ a.post-card-content-link {
   text-decoration: none;
 }
 
-::-webkit-scrollbar {
-display: none;
+div.test {
+    height: 80%;
+    overflow: hidden;
+    position: fixed;
+    top: 79px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.text-content {
+  max-width:1600px;
+  z-index:-10;
+  overflow-y: scroll;
+  padding-left: 370px;
+  padding-right: 370px;
 }
